@@ -17,7 +17,7 @@ References:
 The code for this function is written in Python 3.8 and uses standard python json and boto3 libraries for processing.
 The lambda function must have a role attached with the following permissions added to its policy:
 
-AWS config Read permissions (SelectAggregateResourceConfig)
-S3 Write permissions (PutObject)
-Cloudwatch Logs default Write permissions
+1. AWS config Read permissions (SelectAggregateResourceConfig)
+2. S3 Write permissions (PutObject)
+3. Cloudwatch Logs default Write permissions
 
